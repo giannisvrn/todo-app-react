@@ -1,0 +1,23 @@
+.todo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.todo { 
+    flex-grow: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.not-completed { 
+    background-color: purple;
+}
+
+.completed { 
+    background-color: green;
+}
+
+.delete-icon { 
+    cursor: pointer;
+}

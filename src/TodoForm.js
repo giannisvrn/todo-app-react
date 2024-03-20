@@ -7,7 +7,9 @@ export default function TodoForm({addTodo}) {
     const handleSubmit = e => { 
         e.preventDefault();
 
-        addTodo(value);
+        if( value !== "") { 
+            addTodo(value);
+        }
         setValue("");
     }
     

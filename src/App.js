@@ -28,7 +28,6 @@ export default function App()  {
       {todos.map((todo,index) => (
         <Todo task={todo} key={index} toggleComplete={toggleComplete} deleteTodo={deleteTodo}/>
       ))}
-
     </div>
   );
 }

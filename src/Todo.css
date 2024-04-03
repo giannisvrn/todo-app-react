@@ -21,3 +21,9 @@
 .delete-icon { 
     cursor: pointer;
 }
+
+.edit-icon { 
+    margin-left: 5px;
+    width: 30px;
+    cursor: pointer;
+}

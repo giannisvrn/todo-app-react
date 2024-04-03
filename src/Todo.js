@@ -1,6 +1,6 @@
 import React from "react";
 import './Todo.css'
-import deleteIcon from './delete-icon.png'
+import deleteIcon from './icons/delete-icon.png'
 
 export default function Todo({ task, toggleComplete, deleteTodo }) {
     return (

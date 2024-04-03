@@ -5,7 +5,8 @@ body, html {
 }
 
 body {
-  background-image: url('./hacker-bg.jpg');
+  background: linear-gradient(65deg,#ffb6c1,#98ff98,#ffdab9);
+  /* background-image: url('./hacker-bg.jpg'); */
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
